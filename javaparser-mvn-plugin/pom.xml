@@ -10,6 +10,9 @@
     <properties>
         <maven.version>3.6.3</maven.version>
         <junit.version>4.12</junit.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
     </properties>
     <dependencies>
         <!--        maven插件基础配置    start        -->
@@ -43,7 +46,17 @@
         <dependency>
             <groupId>com.github.javaparser</groupId>
             <artifactId>javaparser-core</artifactId>
-            <version>3.6.16</version>
+            <version>3.22.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.73</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.10</version>
         </dependency>
     </dependencies>
 
